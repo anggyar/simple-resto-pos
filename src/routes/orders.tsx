@@ -39,7 +39,7 @@ function Orders() {
 					/>
 				</div>
 			</div>
-			<div className="px-16 py-4 flex flex-wrap gap-6 overflow-y-auto h-[calc(100vh-10rem-10rem)] content-start scrollbar-none ">
+			<div className="px-16 py-4 flex flex-wrap gap-6 overflow-y-auto h-[calc(100vh-5rem-10rem)] content-start scrollbar-none ">
 				<OrderCard />
 				<OrderCard />
 				<OrderCard />

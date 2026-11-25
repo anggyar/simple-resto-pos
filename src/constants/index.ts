@@ -72,7 +72,17 @@ export const popularDishes = [
 	},
 ];
 
-export const tables = [
+export type TableStatus = "Booked" | "Available";
+
+export type Table = {
+	id: number;
+	name: string;
+	status: TableStatus;
+	initial: string;
+	seats: number;
+};
+
+export const tables: Table[] = [
 	{ id: 1, name: "Table 1", status: "Booked", initial: "AM", seats: 4 },
 	{ id: 2, name: "Table 2", status: "Available", initial: "MB", seats: 6 },
 	{ id: 3, name: "Table 3", status: "Booked", initial: "JS", seats: 2 },
